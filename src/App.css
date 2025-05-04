@@ -1,0 +1,176 @@
+/* Global container styles for consistent alignment */
+.page-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Hero section styles */
+.hero-section {
+  width: 100%;
+  background-color: #f8faff;
+  padding: 80px 0;
+  position: relative;
+}
+
+@media (min-width: 960px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+}
+
+/* Section styles */
+.section {
+  width: 100%;
+  padding: 64px 0;
+}
+
+/* Footer alignment */
+footer {
+  width: 100%;
+}
+
+/* Fix for Home, Doctors, and About pages */
+.home-page .MuiContainer-maxWidthLg,
+.doctors-page .MuiContainer-maxWidthLg,
+.about-page .MuiContainer-maxWidthLg {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Fix specifically for the treatments section on the Home page */
+.home-page .MuiContainer-maxWidthLg {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Fix for card media images to have the same height */
+.home-page .MuiCardMedia-root,
+.doctors-page .MuiCardMedia-root {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Fix specifically for treatment cards on the Home page */
+.home-page .MuiGrid-container .MuiCard-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page .MuiGrid-container .MuiCardContent-root {
+  flex-grow: 1;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* Fix specifically for doctor cards on the Doctors page */
+.doctors-page .MuiGrid-container .MuiCard-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctors-page .MuiGrid-container .MuiCardContent-root {
+  flex-grow: 1;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.doctors-page .MuiGrid-item {
+  display: flex;
+  width: 100%;
+}
+
+.doctors-page .MuiChip-root {
+  margin: 4px;
+}
+
+/* Fix for paper components to have consistent width */
+.home-page .MuiPaper-root,
+.doctors-page .MuiPaper-root,
+.about-page .MuiPaper-root {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Fix specifically for the values and leadership sections on the About page */
+.about-page .MuiGrid-container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-page .MuiGrid-item {
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.about-page .MuiPaper-root,
+.about-page .MuiCard-root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Fix specifically for the leadership section */
+.about-page .MuiBox-root .MuiContainer-root {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Fix for card content in leadership section */
+.about-page .MuiCardContent-root {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Media query for laptop screens */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .home-page .MuiContainer-maxWidthLg,
+  .doctors-page .MuiContainer-maxWidthLg,
+  .about-page .MuiContainer-maxWidthLg {
+    max-width: 960px;
+  }
+}
+
+/* Hero section styles */
+.hero-section {
+  width: 100%;
+  background-color: #f8faff;
+  padding: 80px 0;
+  position: relative;
+}
+
+@media (min-width: 960px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+}
+
+/* Section styles */
+.section {
+  width: 100%;
+  padding: 64px 0;
+}
+
+/* Footer alignment */
+footer {
+  width: 100%;
+}
