@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RegenerativeClinic/static/css/main.8eb2a317.css",
+    "main.js": "/RegenerativeClinic/static/js/main.01722c04.js",
+    "index.html": "/RegenerativeClinic/index.html",
+    "main.8eb2a317.css.map": "/RegenerativeClinic/static/css/main.8eb2a317.css.map",
+    "main.01722c04.js.map": "/RegenerativeClinic/static/js/main.01722c04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eb2a317.css",
+    "static/js/main.01722c04.js"
+  ]
+}
